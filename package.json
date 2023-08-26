@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tailwindcss -i src/input.css -o dist/output.css --watch",
-    "build": "tailwindcss -o dist/output.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o build/css/style.css --watch",
+    "build": "tailwindcss -o ./build/css/style.css --minify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ferry Febriansyah",
